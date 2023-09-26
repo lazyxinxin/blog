@@ -1,4 +1,4 @@
-module blog
+module github.com/lazyxinxin/blog
 
 go 1.21.1
 
