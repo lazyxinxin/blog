@@ -23,6 +23,7 @@ type Blog struct {
 }
 
 func NewBlog(IsDebug bool, OutPutMethod string) *Blog {
+
 	blog := Blog{
 		IsDebug:      IsDebug,
 		Log:          *logrus.New(),
